@@ -19,7 +19,7 @@ variables:
   imagePullSecret: 'helmcontainer8577b759-auth'
 
   # Agent VM image name
-  vmImageName: 'selhosted'
+  vmImageName: 'selfhosted'
 
   # Name of the new namespace being created to deploy the PR changes.
   k8sNamespaceForPR: 'review-app-$(System.PullRequest.PullRequestId)'

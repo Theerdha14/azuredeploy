@@ -1,19 +1,19 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: bathiniarundotnetarun 
+  name: theerdha
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bathiniarundotnetarun
+      app: theerdha
   template:
     metadata:
       labels:
-        app: bathiniarundotnetarun 
+        app: theerdha 
     spec:
       containers:
-        - name: bathiniarundotnetarun 
-          image: clusters.azurecr.io/nikithaazuredeploy:latest
+        - name: theerdha 
+          image: azure/nazure:latest
           ports:
           - containerPort: 8080
